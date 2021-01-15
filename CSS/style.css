@@ -1,0 +1,80 @@
+.body{
+    font-family: 'Roboto', sans-serif; 
+}
+
+.header-part{
+    background-color: #f7f4ee;
+}
+.button-redius{
+ border-radius: 20px;
+
+}
+.top-bar .paragraph-1{
+    color: #fdc255;
+}
+.top-bar .paragraph-2{
+    color: #3e4168;
+}
+.top-bar h1{
+    font-size:65px;
+}
+main h2{
+    font-size:35px;
+    color: ##3d4168;
+}
+main h5{
+    font-size:30px;
+    color: #3d4168;
+}
+
+.card-image{
+    border-radius:10px;
+    background-color: #fdf5f5;
+   display: flex;
+   justify-content:center;
+}
+.first-jacket{
+    width:75%;
+}
+.second-jacket{
+    width:68%;
+}
+.third-jacket{
+    width:90.5%;
+}
+.fourth-jacket{
+    width:94%;
+}
+.product{
+    
+        border-radius:1em;
+    
+}
+.border-radius{
+    border-radius:1em;
+}
+
+/* Responsive Media Query */
+@media (min-width: 1200px) { 
+    .about-response img{
+        width: 60%;
+    }
+ }
+ @media (max-width: 1200px) { 
+    .about-response img{
+        width: 80%;
+    }
+ }
+ @media (max-width: 992px) { 
+    .about-response img{
+        width: 60%;
+    }
+ }
+@media (max-width: 768px) {
+    .about-response img{
+        width: 33%;
+    }
+    .about-response h5{
+        margin-top: 10px;
+    }
+}
